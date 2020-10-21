@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <!--UI-->
+    <string name="nav_index">主页</string>
+    <string name="nav_video">视频</string>
+    <string name="nav_audio">音频</string>
+    <string name="nav_live">直播</string>
+
+</resources>
