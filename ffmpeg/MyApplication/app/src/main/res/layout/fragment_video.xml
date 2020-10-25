@@ -6,15 +6,9 @@
     android:layout_height="match_parent"
     tools:context=".view.MainActivity">
 
-    <androidx.viewpager.widget.ViewPager
-        android:layout_above="@+id/nav"
-        android:id="@+id/viewPager"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
-
-
-    <include
-        android:id="@+id/nav"
-        layout="@layout/include_navigation_bar"></include>
+<TextView
+    android:text="@string/nav_video"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>
 
 </RelativeLayout>

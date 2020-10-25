@@ -41,8 +41,10 @@ android {
 //        }
 //    }
 }
-
+//apply plugin: 'com.neenbedankt.android-apt'
 dependencies {
+    implementation 'com.jakewharton:butterknife:8.1.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.1.0'
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
